@@ -1,0 +1,40 @@
+#frame {
+    width: 70%;
+    height: 50%;
+    border: solid 1px #000;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+
+#screen {
+    width: 50%;
+    height: 80%;
+    font-size: 1.5em;
+    border: solid 1px #000;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+#buttons {
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+    font-size: 1.5em;
+    background-color: #f0f0f0;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
